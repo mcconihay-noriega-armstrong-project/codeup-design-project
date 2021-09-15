@@ -18,6 +18,12 @@ img {
 body {
     background-color: #E6E6E6;
 }
-h3 {
+h3  {
+    text-align: center;
+}
+.nav-link {
+    color: black;
+}
+h2 {
     text-align: center;
 }
