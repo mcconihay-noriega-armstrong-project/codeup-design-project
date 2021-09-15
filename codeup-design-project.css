@@ -1,0 +1,29 @@
+.jumbotron-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*position: center;*/
+    align-items: center;
+    align-self: center;
+    /*maigin: auto;*/
+    background-color: white;
+    padding: 0;
+    height: 65px;
+    margin-top: 25px;
+}
+img {
+    width: 105px;
+    height: 105px;
+}
+body {
+    background-color: #E6E6E6;
+}
+h3  {
+    text-align: center;
+}
+.nav-link {
+    color: black;
+}
+h2 {
+    text-align: center;
+}
