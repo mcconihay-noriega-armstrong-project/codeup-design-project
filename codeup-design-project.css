@@ -201,6 +201,7 @@ section {
        display: flex;
         flex-wrap: wrap;
         width: 100%;
+        height: 30em;
     }
     .nav-link-md {
         display: flex;
