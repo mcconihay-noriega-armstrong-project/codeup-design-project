@@ -259,7 +259,7 @@ section {
 }
 
 
-@media screen and (min-width:1010px)and(max-width:1030px) {
+@media screen and (min-width:1010px) {
 
 
 
@@ -269,17 +269,20 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 550px;
-        height: 300px;
+        width: 70%;
+        float: left;
     }
 
     .the-last{
-        width: 300px;
+        width: 25%;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        margin:0;
-        height: 300px;
+        float: right;
+        align-items: flex-start;
+        height: 40em;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-shrink: initial;
     }
 
 
