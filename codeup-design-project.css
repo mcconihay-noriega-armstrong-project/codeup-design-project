@@ -130,6 +130,9 @@ section {
 .man{
     display: none;
 }
+.nav-link-md{
+    display: none;
+}
 
 @media screen and (min-width:700px) {
 
@@ -198,4 +201,17 @@ section {
         flex-wrap: wrap;
         width: 100%;
     }
+    .nav-link-md {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+
+
+    }
+    .nav-link{
+        display: none;
+
+    }
+
+
 }
