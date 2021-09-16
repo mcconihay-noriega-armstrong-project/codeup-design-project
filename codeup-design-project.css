@@ -134,6 +134,7 @@ section {
     display: none;
 }
 
+
 @media screen and (min-width:700px) {
 
 
@@ -248,5 +249,9 @@ section {
         border-radius: 3em;
         margin: .5em;
         color: #F0F0F0;
+    }
+    .section-circle{
+        height: 10em;
+        width: 100%;
     }
 }
