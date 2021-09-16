@@ -286,6 +286,45 @@ section {
     }
 
 
+    .ipad-mini{
+
+
+    }
+
+
+    .head{
+
+    }
+
+
+
+    .mobile-phone{
+
+    }
+
+    .nav-link-md {
+        display: none;
+    }
+
+
+    .nav-link-lg{
+
+    }
+
+
+    ul{
+        display: none;
+    }
+
+    .second-list{
+        display: flex;
+    }
+
+
+    h3{display: none}
+
+
+
 
 
 
