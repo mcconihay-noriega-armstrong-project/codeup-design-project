@@ -121,6 +121,40 @@ section {
     height: 10px;
 }
 
-@media screen and (min-width:500px) {
-    selector {
+.security {
+    display: none;
+}
+.macbook{
+    display: none;
+}
+.man{
+    display: none;
+}
 
+@media screen and (min-width:500px) {
+    selector
+}
+
+.security {
+
+}
+.macbook{
+
+}
+.man{
+
+}
+
+.ipad{
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    border-radius: 10px;
+    border: .7em solid #F0F0F0;
+    width: 250px;
+    height: 200px;
+}
