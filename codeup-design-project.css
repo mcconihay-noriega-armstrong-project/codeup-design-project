@@ -253,6 +253,53 @@ section {
     }
     .section-circle{
         height: 10em;
-        width: 100%;
+        width: 50%;
+
     }
+}
+
+
+@media screen and (min-width:1010px)and(max-width:1030px) {
+
+
+
+
+
+    .selected-work {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 550px;
+        height: 300px;
+    }
+
+    .the-last{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin:0;
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+
+    /*.selected-work{*/
+    /*    display: inline-block;*/
+    /*    width: calc(70% - 1em);*/
+    /*    margin-right: 1em;*/
+    /*}*/
+    /*.the-last{*/
+    /*    display: inline-block;*/
+    /*    width: calc(30% - 1em);*/
+    /*    margin: 0;*/
+    /*    height: 300px;*/
+    /*}*/
+
 }
