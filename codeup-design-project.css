@@ -23,7 +23,9 @@ body {
 h3  {
     display: none;
     text-align: center;
-}
+    font-family: "anton regular";
+    font-weight: bold;
+    }
 .nav-link {
     color: black;
     display: flex;
@@ -37,10 +39,14 @@ h2 {
     text-align: center;
     margin-bottom: 1em;
     margin-top: 1em;
+    font-family: "anton regular";
+    font-weight: bold;
 }
 h5 {
     margin-top: 1em;
     text-align: center;
+    /*font-family: "anton regular";*/
+    /*font-weight: bold;*/
 }
 h6{
 
@@ -422,6 +428,7 @@ h6{
     }
     p{
         font-family: "abel regualar";
+
     }
     .desktop{
         display: flex;
