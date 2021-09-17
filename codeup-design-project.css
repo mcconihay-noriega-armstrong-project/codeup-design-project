@@ -10,6 +10,7 @@
     padding: 0;
     height: 65px;
     margin-top: 25px;
+
 }
 img {
     width: 105px;
@@ -19,14 +20,22 @@ body {
     background-color: #E6E6E6;
 }
 h3  {
+    display: none;
     text-align: center;
 }
 .nav-link {
     color: black;
+    display: flex;
+    font-size: 10px;
+    /*justify-content: space-around;*/
+
+
+
 }
 h2 {
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 h5 {
     margin-top: 1em;
@@ -155,11 +164,20 @@ h6{
     display: none;
 }
 .first-image{
-    margin-top: 45px;
+    margin-top: 40px;
+
 }
 .container{
     margin-top: 40px;
 }
+
+
+.nav-link-sm{
+    display: flex;
+
+}
+
+
 
 @media screen and (min-width:700px) {
 
@@ -236,6 +254,13 @@ h6{
 
 
     }
+
+
+    .nav-link-sm{
+        display: none;
+
+    }
+
     .nav-link{
         display: none;
 
@@ -402,6 +427,9 @@ h6{
         align-self: flex-start;
         margin-left: 66px;
     }
+
+
+
 
 
 
