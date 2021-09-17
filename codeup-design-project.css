@@ -11,10 +11,11 @@
     height: 65px;
     margin-top: 25px;
 
+
 }
 img {
-    width: 105px;
-    height: 105px;
+    width: 100px;
+    height: 90px;
 }
 body {
     background-color: #E6E6E6;
@@ -164,7 +165,7 @@ h6{
     display: none;
 }
 .first-image{
-    margin-top: 40px;
+    margin-top: 70px;
 
 }
 .container{
