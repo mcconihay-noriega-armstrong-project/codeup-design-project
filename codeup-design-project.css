@@ -304,6 +304,7 @@ h6{
     h6{
     display: flex;
     }
+
 }
 
 
@@ -334,23 +335,33 @@ h6{
         justify-content: flex-start;
         flex-wrap: wrap;
         flex-shrink: initial;
+        margin-top: 90px;
     }
 
 
     .ipad-mini{
-
-
+     display: flex;
+    float: left;
+    height: 70px;
+        width: 70px;
     }
 
 
     .head{
+        display: flex;
+        float: left;
+        height: 70px;
+        width: 70px;
 
     }
 
 
 
     .mobile-phone{
-
+        display: flex;
+        float: left;
+        height: 70px;
+        width: 70px;
     }
 
     .nav-link-md {
@@ -382,6 +393,14 @@ h6{
         height: 50px;
         width: 100%;
         background-color: white;
+    }
+    p{
+        font-family: "abel regualar";
+    }
+    .desktop{
+        display: flex;
+        align-self: flex-start;
+        margin-left: 66px;
     }
 
 
